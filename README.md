@@ -1,32 +1,56 @@
-# Happy Birthday Wulan
+# 🎂 Happy Birthday Intan Sayang
 
-## Wish someone special happy birthday in a special way
+Pour your heart out with a magical, animated birthday greeting for someone who means the world
 
-## [See it Live Here](https://hbd-wulan.vercel.app)
+## 🌟 [View the Live Demo](http://halip26.github.io/hbd-intan)
 
-## Update: Now you can customize all the texts without modifying the code
+---
 
-On the birthday of a special friend, I felt like the generic happy birthday text just wasn't gonna cut it for me. So I put together this animated web page at the last minute to wish them Happy Birthday.
+## ✨ How It Works
 
-I decided to publish it so that you can use it to make the special people in your life feel a bit more of what they truly are: special.
-You can create your very own happy-birthday page in a few easy steps:
+This project lets you send a personalized, animated birthday wish to anyone you care about. With just a few simple steps, you can create a unique web page that will make their day extra memorable.
 
-* Fork the repository
-* Open `customize.json` and replace the content with your own
-* Turn on GitHub pages for your repository (Settings > Pages)
-* Share the URL you get at the above step with your friend
+### Quick Start
 
-**You do not need to create Pull Request to this main repository to get it running.**
+1. **Fork this repository**
+2. **Edit `customize.json`**  
+   Replace the sample content with your own messages and image links.
+3. **Enable GitHub Pages**  
+   Go to your repository’s Settings → Pages and publish your site.
+4. **Share the link**  
+   Send your custom birthday page to your loved one!
 
-I've created the JSON file (`customize.json`) for easy and quick customizability. It allows you the change all of the texts and the image used on the webpage without modifying the code. However, If you want to customize it further, leave the JSON fields empty and edit the HTML file directly. This is because the content in the JSON file overwrites the HTML.
+> **No pull request needed!**  
+> Your page will work right from your own fork.
 
-Please note that I've created this page in a hurry and it comes with no warranty.
+---
 
-Feel free to [get in touch with me](mailto:halipuddin.angko@gmail.com) if you need any help with it. You can [find me on Twitter](https://twitter.com/halip26) as well. :)
+## 🛠️ Customization
 
-## Contributing
+All text and images are managed through `customize.json` for easy editing—no need to touch the code.  
+Want even more control? Leave fields blank in the JSON and edit the HTML directly for advanced customization.
 
-I've used plain HTML, CSS and JavaScript with [GSAP](https://greensock.com/gsap) for animations.
-If you have any idea to improve it or make it more interesting, feel free to send a PR, or create an issue for a feature request.
+---
 
-Happy wishing! 🎉
+## 💡 About
+
+This project was created in a hurry to make a birthday extra special. Now, it’s open for anyone to use and share the joy!  
+Built with plain HTML, CSS, JavaScript, and [GSAP](https://greensock.com/gsap) for smooth animations.
+
+---
+
+## 🤝 Contributing
+
+Have ideas to make this project better?  
+Feel free to open an issue, suggest a feature, or submit a pull request!
+
+---
+
+## 📬 Need Help?
+
+- Email: [halipuddin.angko@gmail.com](mailto:halipuddin.angko@gmail.com)
+- Twitter: [@halip26](https://x.com/halip26)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
