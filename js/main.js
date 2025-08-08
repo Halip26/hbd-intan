@@ -116,7 +116,7 @@ const animationTimeline = () => {
       0.05
     )
     .to(".fake-btn", 0.1, {
-      backgroundColor: "#fbb825",
+      backgroundColor: "#88a4d4",
     })
     .to(
       ".four",
@@ -136,7 +136,7 @@ const animationTimeline = () => {
     .to(".idea-3 strong", 0.5, {
       scale: 1.1,
       x: 10,
-      backgroundColor: "#ed8728",
+      backgroundColor: "#5f9bf5",
       color: "#fff",
     })
     .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
@@ -276,7 +276,7 @@ const animationTimeline = () => {
       {
         scale: 1,
         rotationY: 0,
-        color: "#ed8728",
+        color: "#5f9bf5",
         ease: Expo.easeOut,
       },
       0.1,
@@ -314,13 +314,13 @@ const animationTimeline = () => {
       ".last-smile",
       0.5,
       {
-        rotation: 90,
+        rotation: -10,
       },
       "+=1"
     );
 
   tl.seek("currentStep");
-  tl.timeScale(1.7);
+  tl.timeScale(1.2);
 
   // Mulai Ulang Animasi jika diklik
   const replyBtn = document.getElementById("replay");
